@@ -1,0 +1,22 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteiner{
+    padding: 15px;
+}
+
+table{
+    background-color:rgb(76, 76, 76) ;
+}
+
+th{
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+}
+
+td{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
