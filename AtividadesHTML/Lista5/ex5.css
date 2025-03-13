@@ -1,4 +1,71 @@
 body{
     padding: 0px;
     margin: 0px;
+    background-color: silver;
+}
+
+h1{
+    color: gold;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+#n{
+    color: crimson;
+    text-decoration: none;
+}
+
+#h{
+    color: deeppink;
+    text-decoration: none;    
+}
+
+#h:hover{
+    color: floralwhite;
+    font-size: 17px;
+}
+
+#v{
+    color: navy;
+    text-decoration: none;
+}
+
+#v:visited{
+    color: rgb(0, 0, 0);
+}
+
+.intro{
+    color: blueviolet;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.desc{
+    color: seagreen;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.coluna{
+    border: 3px solid black;
+    margin: 5px;
+    width: 500px;
+    padding: 10px;
+}
+
+.box{
+    background-color: cyan;
+    width: 500px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 5px;
 }
