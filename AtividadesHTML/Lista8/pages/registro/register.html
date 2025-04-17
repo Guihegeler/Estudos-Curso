@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="./register.css">
+    <title>Registro</title>
+</head>
+<body>
+
+    <nav>
+        <div class="esq">
+            <div class="logo">
+                <a href="../../index.html" class="lg">
+                    <img src="/AtividadesHTML/Lista8/assets/image/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="bott-top">
+                <ul class="menu">
+                    <li><a href="#" target="_blank" class="mn">Smartphones</a></li>
+                    <li><a href="#" target="_blank" class="mn">Tablets</a></li>
+                    <li><a href="#" target="_blank" class="mn">Computadores</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dir">
+                <a href="../login/login.html" class="mn">Login</a>
+
+                <a href="../registro/register.html" class="mn">registro</a>
+        </div>
+    </nav>
+
+        <div class="form">
+            
+                <h1>REGISTRAR</h1>
+            
+            <label for="nome">Nome</label>
+            <input type="text" id="textos" placeholder="Nome completo" required>
+            <span>Obrigatório</span>
+
+            <label for="email">Email</label>
+            <input type="email" id="textos" placeholder="email@exemple.com" required>
+            <span>Obrigatório</span>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="textos" placeholder="senha" required>
+            <span>Obrigatório</span>
+
+                <h3>País de nascimento</h3>
+            
+            <select name="pais" id="textos">
+                <option value="brasil">Brasil</option>
+                <option value="argentina">Argentina</option>
+                <option value="paraguai">Paraguai</option>
+                <option value="uruguai">Uruguai</option>
+                <option value="chile">Chile</option>
+                <option value="peru">Peru</option>
+                <option value="colombia">Colômbia</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="bolivia">Bolívia</option>
+                <option value="paraguai">Paraguai</option>
+            </select>
+            <span>Obrigatório</span>
+
+            <h3>Gênero</h3>
+            <div class="radio">
+                <input type="radio" name="gen" id="Masc">
+                <label for="Masc">Masculino</label>
+                <input type="radio" name="gen" id="Fem">
+                <label for="Fem">Feminino</label>
+                <input type="radio" name="gen" id="Out">
+                <label for="Out">Prefiro não dizer</label>
+            </div>
+
+            <h3>Hobbies</h3>
+            <div class="radio">
+                <input type="radio" name="hob" id="Guitarra">
+                <label for="Guitarra">Guitarra</label>
+                <input type="radio" name="hob" id="Futebol">
+                <label for="Futebol">Futebol</label>
+                <input type="radio" name="hob" id="Tenis">
+                <label for="Tenis">Tenis</label>
+                <input type="radio" name="hob" id="Prog">
+                <label for="Prog">Programação</label>
+            </div>
+
+            <h3>Comentário</h3>
+            <textarea name="Coments" id="coments" placeholder="Deixe um comentário..."></textarea>
+
+            <div class="check">
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="Lembre">Aceito os termos de uso</label>
+            </div>
+
+            <p>Botão de enviar com a tag "input"</p>
+
+            <div class="sla">
+                <input type="submit" value="Registrar" id="btn">
+                <input type="reset" value="Cancelar" id="btn">
+            </div>
+
+            <p>Botão enviar com a tag "button"</p>
+
+            <div class="button">
+                <button type="submit" id="btn">Registrar</button>
+                <button type="reset" id="btn">Cancelar</button>
+            </div>
+        </div>
+
+</body>
+</html>

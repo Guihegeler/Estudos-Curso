@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: default;
+}
+
+body{
+    background-image: url("/AtividadesHTML/Lista8/assets/image/bg-2.png");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+nav{
+    background-color: rgb(243, 84, 27);
+    position: sticky;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 75px;
+}
+
+.lg{
+    cursor: pointer;
+    width: 130px;
+}
+
+.logo{
+    margin: 20px;
+}
+
+.esq{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.dir{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+    justify-content: end;
+    padding: 30px;
+    gap: 4px;
+    overflow: hidden;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.mn{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    transform: scale(1);
+}
+
+.mn:hover{
+    background-color: rgba(255, 255, 255, 0.175);
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.principal{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    width: 70vw;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.card img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card h2{
+    margin-bottom: 20px;
+}
+
+.card p{
+    margin-bottom: 20px;
+}
+
+.card button{
+    background-color: rgb(243, 84, 27);
+    width: 100px;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.0em;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 30vw;
+    align-self: flex-start;
+}
+
+.titulos{
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    font-size: 1em;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 50px;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.itens div{
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 90%;
+    height: 110px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.itens div p{
+    margin-top: 7px;
+}
+
+.ads{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    gap: 30px;
+}
+
+.ads img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
