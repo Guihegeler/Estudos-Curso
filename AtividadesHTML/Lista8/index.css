@@ -33,6 +33,10 @@ nav{
     width: 130px;
 }
 
+.lg img{
+    cursor: pointer;
+}
+
 .logo{
     margin: 20px;
 }
@@ -75,6 +79,7 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     transform: scale(1);
+    cursor: pointer;
 }
 
 .mn:hover{
